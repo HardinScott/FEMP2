@@ -1,8 +1,75 @@
-.calc-body{
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 750px;
+    width: 500px;
+}
+
+.calc{
+    height: 100%;
+    width: 100%;
     display: flex;
     align-content: center;
     justify-content: center;
-    width: 50%;
-    height: 75%;
-    margin: 5px 0 5px 0;
+    align-items: flex-start;
+    background: black;
+    flex-direction: column;
+}
+
+.calc-display{
+    display: flex;
+    height: 15%;
+    min-width: 100%;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 5rem;
+}
+.buttons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.nums-manipulators{
+    display: flex;
+    height: 85%;
+    width: 75%;
+    flex-direction: column;
+    background: whitesmoke;
+    color: black;
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 25%;
+    background: burlywood;
+    color: white;
+}
+
+.button-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.button-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+.button-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+}
+.button-row{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
 }
