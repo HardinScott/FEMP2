@@ -2,13 +2,7 @@ let numOne = "0";
 let numTwo = "";
 let operator = 0;
 let display = null;
-/*
-    divide = 1
-    multiply = 2
-    minus = 3
-    plus = 4
-    equal = 0
- */
+
 function init(){
     document.getElementsByClassName("button-two")[0].addEventListener('click', clearButton);
     document.getElementsByClassName("backspace")[0].addEventListener('click', backSpace);
