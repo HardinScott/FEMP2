@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-content: center;
     height: 750px;
-    width: 500px;
+    width: 600px;
 }
 
 .calc{
@@ -35,8 +35,8 @@ body{
 }
 .nums-manipulators{
     display: flex;
-    height: 85%;
-    width: 75%;
+    height: 100%;
+    width: 100%;
     flex-direction: column;
     background: whitesmoke;
     color: black;
@@ -44,7 +44,7 @@ body{
 .operators{
     display: flex;
     flex-direction: column;
-    height: 85%;
+    height: 100%;
     width: 25%;
     background: burlywood;
     color: white;
@@ -56,17 +56,35 @@ body{
     justify-content: center;
     flex: 1;
 }
+.button-one:active{
+    background: grey;
+}
+.button-one:hover{
+    border: solid black 3px;
+}
 .button-two{
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 2;
 }
+.button-two:active{
+    background: grey;
+}
+.button-two:hover{
+    border: solid black 3px;
+}
 .button-three{
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 3;
+}
+.button-three:active{
+    background: grey;
+}
+.button-three:hover{
+    border: solid black 3px;
 }
 .button-row{
     display: flex;
